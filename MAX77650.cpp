@@ -742,11 +742,11 @@ int MAX77650::setEN_SBB1(char value) {
 
 //******************************************************************************
 int MAX77650::setIP_SBB2(char value) {
-    return setRegister(CNFG_SBB1_A, 0xC0, value);
+    return setRegister(CNFG_SBB2_A, 0xC0, value);
 }
 
 int MAX77650::setTV_SBB2(char value) {
-    return setRegister(CNFG_SBB1_A, 0x3F, value);
+    return setRegister(CNFG_SBB2_A, 0x3F, value);
 }
 
 //******************************************************************************
